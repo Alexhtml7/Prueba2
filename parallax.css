@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.sect1 {
+    width: 100%;
+    height: 100vh;
+    background: url("/imagenes/pexels3.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh - 50px);
+}
+
+/** 50vh nos va a dar un espacio desde el alto al 50% del navegador, pero le tenemos que restar la mitad del height 
+del elemento que esta en esa caja, en nuestro caso, el sect1h2 tiene 100px, por ende, se restan 50px. */
+
+.sect1h2 {
+    background: black;
+    color: white;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+.sect2 {
+    width: 100%;
+    text-align: center;
+    padding: 60px 40px;
+}
+
+.text2 {
+    padding: 40px 0;
+}
+
+.sect3 {
+    width: 100%;
+    height: 100vh;
+    background: url("/imagenes/pexels2.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh - 50px);
+}
+
+.sect3h2 {
+    background: black;
+    color: white;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+}
+
+.sect4 {
+    width: 100%;
+    text-align: center;
+    padding: 60px 40px;
+}
+
+.text4 {
+    padding: 40px 0;
+}
+
+.sect5 {
+    width: 100%;
+    height: 100vh;
+    background: url("/imagenes/pexels1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-top: calc(50vh - 50px);
+}
+
+.sect5h2 {
+    background: black;
+    color: white;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 100px;
+}

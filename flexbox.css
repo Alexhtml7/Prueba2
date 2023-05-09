@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 800px;
+    min-height: 600px;
+    margin: 80px auto;
+    border: 3px solid black;
+    display: flex;
+    /*flex-direction: row;
+    justify-content: space-evenly;
+     align-items: center;
+    align-content: baseline; */
+}
+
+.element{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+    width: 100px; 
+    /* width: 300px; */
+    height: 100px;
+    /* flex-grow: 1; */ 
+    /* flex-shrink: 1; en 1 es por defecto, en 0 se salen del contenedor*/
+    /* flex-basis: 150px; indica el tamaño de los elementos en main axis
+    puede cambiarse a vertical si ponemos flex-direction:column */
+}
+
+.element1{
+    background-color: crimson;
+    /* order: 2; a mayor numero, más al final irá */
+    /* align-self: flex-end; permite alinear solamente al elemento que estamos seleccionando */
+}
+
+.element2{
+    background-color: purple;
+    /* flex-shrink: 3; se hace 3 veces más pequeño que los demás elementos */
+}
+
+.element3{
+    background-color: steelblue;
+}
